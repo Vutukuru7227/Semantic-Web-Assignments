@@ -1,0 +1,33 @@
+<http://www.w3.org/1999/02/22-rdf-syntax-ns/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/PersonalProfileDocument> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns/> <http://xmlns.com/foaf/0.1/maker> <http://www.w3.org/1999/02/22-rdf-syntax-ns/#me> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns/> <http://xmlns.com/foaf/0.1/primaryTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns/#me> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns/> <http://webns.net/mvcb/generatorAgent> <http://www.ldodds.com/foaf/foaf-a-matic> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns/> <http://webns.net/mvcb/errorReportsTo> <mailto:leigh@ldodds.com> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns/#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns/#me> <http://xmlns.com/foaf/0.1/name> "Ram Anand Vutukuru" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns/#me> <http://xmlns.com/foaf/0.1/title> "Mr" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns/#me> <http://xmlns.com/foaf/0.1/givenname> "Ram Anand" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns/#me> <http://xmlns.com/foaf/0.1/family_name> "Vutukuru" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns/#me> <http://xmlns.com/foaf/0.1/nick> "Andy" .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns/#me> <http://xmlns.com/foaf/0.1/mbox> <mailto:anand.gilchrist49@gmail.com> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns/#me> <http://xmlns.com/foaf/0.1/homepage> <http://www.utdallas.edu> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns/#me> <http://xmlns.com/foaf/0.1/depiction> <http://www.w3.org/1999/02/22-rdf-syntax-ns/IamTheImp.jpg> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns/#me> <http://xmlns.com/foaf/0.1/phone> <tel:0987654321> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns/#me> <http://xmlns.com/foaf/0.1/workplaceHomepage> <http://elearning.utdallas.edu> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns/#me> <http://xmlns.com/foaf/0.1/workInfoHomepage> <http://cs.utdallas.edu> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns/#me> <http://xmlns.com/foaf/0.1/schoolHomepage> <http://www.utdallas.edu> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns/#me> <http://xmlns.com/foaf/0.1/knows> _:Bb3c42647X2Dce0fX2D45b5X2DaacdX2D79efc8f4a0f0 .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns/#me> <http://xmlns.com/foaf/0.1/knows> _:B413b5e42X2D71ebX2D4e34X2D9d84X2Daea6f38a9c9f .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns/#me> <http://xmlns.com/foaf/0.1/knows> _:B221f4584X2D6fb4X2D4ca2X2Dbf3eX2D1515828ed08e .
+_:Bb3c42647X2Dce0fX2D45b5X2DaacdX2D79efc8f4a0f0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:Bb3c42647X2Dce0fX2D45b5X2DaacdX2D79efc8f4a0f0 <http://xmlns.com/foaf/0.1/name> "Himi" .
+_:Bb3c42647X2Dce0fX2D45b5X2DaacdX2D79efc8f4a0f0 <http://xmlns.com/foaf/0.1/mbox> <mailto:rxv162130@utdallas.edu> .
+_:Bb3c42647X2Dce0fX2D45b5X2DaacdX2D79efc8f4a0f0 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.youtube.com> .
+_:B413b5e42X2D71ebX2D4e34X2D9d84X2Daea6f38a9c9f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:B413b5e42X2D71ebX2D4e34X2D9d84X2Daea6f38a9c9f <http://xmlns.com/foaf/0.1/name> "Bonnie Wright" .
+_:B413b5e42X2D71ebX2D4e34X2D9d84X2Daea6f38a9c9f <http://xmlns.com/foaf/0.1/mbox> <mailto:bonnie@gmail.com> .
+_:B413b5e42X2D71ebX2D4e34X2D9d84X2Daea6f38a9c9f <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://jena.apache.org/documentation/javadoc/arq/org/apache/jena/query/Dataset.html> .
+_:B221f4584X2D6fb4X2D4ca2X2Dbf3eX2D1515828ed08e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:B221f4584X2D6fb4X2D4ca2X2Dbf3eX2D1515828ed08e <http://xmlns.com/foaf/0.1/name> "Ariel Winter" .
+_:B221f4584X2D6fb4X2D4ca2X2Dbf3eX2D1515828ed08e <http://xmlns.com/foaf/0.1/mbox> <mailto:ariel@outlook.com> .
+_:B221f4584X2D6fb4X2D4ca2X2Dbf3eX2D1515828ed08e <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://jena.apache.org/documentation/tdb/datasets.html> .
