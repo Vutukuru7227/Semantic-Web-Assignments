@@ -1,0 +1,44 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:j.0="http://utdallas/semclass#">
+  <j.0:movie rdf:about="http://utdallas/semclass#AClockworkOrangeMovie">
+    <j.0:BasedOn>
+      <j.0:Books rdf:about="http://utdallas/semclass#AClockWorkOrangeBook">
+        <dc:date>1962</dc:date>
+        <dc:creator>
+          <j.0:Authors rdf:about="http://utdallas/semclass#AnthonyBurgess">
+            <vcard:ROLE>Author</vcard:ROLE>
+            <vcard:FN>Anthony Burgess</vcard:FN>
+          </j.0:Authors>
+        </dc:creator>
+        <dc:title>A Clockwork Orange</dc:title>
+      </j.0:Books>
+    </j.0:BasedOn>
+    <j.0:year>1971</j.0:year>
+  </j.0:movie>
+  <j.0:movie rdf:about="http://utdallas/semclass#DrStangeLoveMovie">
+    <j.0:BasedOn>
+      <j.0:Books rdf:about="http://utdallas/semclass#RedAlertBook">
+        <dc:date>1958</dc:date>
+        <dc:creator>
+          <j.0:Authors rdf:about="http://utdallas/semclass#PeterGeorge">
+            <vcard:ROLE>Author</vcard:ROLE>
+            <vcard:FN>Peter George</vcard:FN>
+          </j.0:Authors>
+        </dc:creator>
+        <dc:title>Red Alert</dc:title>
+      </j.0:Books>
+    </j.0:BasedOn>
+    <j.0:year>1964</j.0:year>
+  </j.0:movie>
+  <rdf:Description rdf:about="http://utdallas/semclass#movie">
+    <j.0:Director>
+      <j.0:person rdf:about="http://utdallas/semclass#StanleyKubrick">
+        <vcard:ROLE>Movie Director</vcard:ROLE>
+        <vcard:FN>Stanley Kubrick</vcard:FN>
+      </j.0:person>
+    </j.0:Director>
+  </rdf:Description>
+</rdf:RDF>

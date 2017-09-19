@@ -1,0 +1,56 @@
+<http://utdallas/semclass#DrStangeLoveMovie>
+        a       <http://utdallas/semclass#movie> ;
+        <http://utdallas/semclass#BasedOn>
+                <http://utdallas/semclass#RedAlertBook> ;
+        <http://utdallas/semclass#year>
+                "1964" .
+
+<http://utdallas/semclass#RedAlertBook>
+        a       <http://utdallas/semclass#Books> ;
+        <http://purl.org/dc/elements/1.1/creator>
+                <http://utdallas/semclass#PeterGeorge> ;
+        <http://purl.org/dc/elements/1.1/date>
+                "1958" ;
+        <http://purl.org/dc/elements/1.1/title>
+                "Red Alert" .
+
+<http://utdallas/semclass#movie>
+        <http://utdallas/semclass#Director>
+                <http://utdallas/semclass#StanleyKubrick> .
+
+<http://utdallas/semclass#PeterGeorge>
+        a       <http://utdallas/semclass#Authors> ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Peter George" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#ROLE>
+                "Author" .
+
+<http://utdallas/semclass#AnthonyBurgess>
+        a       <http://utdallas/semclass#Authors> ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Anthony Burgess" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#ROLE>
+                "Author" .
+
+<http://utdallas/semclass#AClockworkOrangeMovie>
+        a       <http://utdallas/semclass#movie> ;
+        <http://utdallas/semclass#BasedOn>
+                <http://utdallas/semclass#AClockWorkOrangeBook> ;
+        <http://utdallas/semclass#year>
+                "1971" .
+
+<http://utdallas/semclass#AClockWorkOrangeBook>
+        a       <http://utdallas/semclass#Books> ;
+        <http://purl.org/dc/elements/1.1/creator>
+                <http://utdallas/semclass#AnthonyBurgess> ;
+        <http://purl.org/dc/elements/1.1/date>
+                "1962" ;
+        <http://purl.org/dc/elements/1.1/title>
+                "A Clockwork Orange" .
+
+<http://utdallas/semclass#StanleyKubrick>
+        a       <http://utdallas/semclass#person> ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Stanley Kubrick" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#ROLE>
+                "Movie Director" .
